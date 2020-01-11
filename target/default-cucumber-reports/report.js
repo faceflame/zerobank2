@@ -1,24 +1,21 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/AccountSummary.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/features/AddNewPayee.feature");
 formatter.feature({
-  "name": "Account Summary",
+  "name": "Add new payee under pay bills",
   "description": "",
   "keyword": "Feature",
   "tags": [
     {
-      "name": "@account_summary"
+      "name": "@add_new_payee"
     }
   ]
 });
 formatter.scenario({
-  "name": "Account summary page should have  Cash Accounts, Investment Accounts, Credit Accounts, Loan Accounts.",
+  "name": "Add a new payee",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@account_summary"
-    },
-    {
-      "name": "@account_types"
+      "name": "@add_new_payee"
     }
   ]
 });
@@ -36,33 +33,57 @@ formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "the user should see the following account types",
+  "name": "the user is on Add New Payee tab",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "AddNewPayeeStepDefs.the_user_is_on_Add_New_Payee_tab()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the user creates new payee using following information",
   "rows": [
     {
       "cells": [
-        "Cash Accounts"
+        "Payee Name",
+        "The Law Offices of Hyde, Price \u0026 Scharks"
       ]
     },
     {
       "cells": [
-        "Investment Accounts"
+        "Payee Address",
+        "100 Same st, Anytown, USA, 10001"
       ]
     },
     {
       "cells": [
-        "Credit Accounts"
+        "Account",
+        "Checking"
       ]
     },
     {
       "cells": [
-        "Loan Accounts"
+        "Payee details",
+        "XYZ account"
       ]
     }
   ],
+  "keyword": "And "
+});
+formatter.match({
+  "location": "AddNewPayeeStepDefs.the_user_creates_new_payee_using_following_information(String,String\u003e)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the system should display \"The new payee The Law Offices of Hyde, Price \u0026 Scharks was successfully created.\" message",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "AccountSummaryStepDefs.the_user_should_see_the_following_account_types(String\u003e)"
+  "location": "AddNewPayeeStepDefs.the_system_should_display_message(String)"
 });
 formatter.result({
   "status": "passed"

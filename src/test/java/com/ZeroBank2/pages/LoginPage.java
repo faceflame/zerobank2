@@ -33,6 +33,7 @@ public void Login (){
 
 
     public LoginPage(){
-        PageFactory.initElements(Driver.get(), this);
+
+    PageFactory.initElements(Driver.get(), this);
     }
 }
