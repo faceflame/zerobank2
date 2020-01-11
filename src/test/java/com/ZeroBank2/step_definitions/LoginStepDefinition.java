@@ -27,7 +27,6 @@ public class LoginStepDefinition {
 
     }
 
-
     @Then("the page title should be {string}")
     public void the_page_title_should_be(String string) {
         BrowserUtils.waitFor(2);

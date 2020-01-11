@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2020-01-10T23:54:50.673Z",
+        "start_timestamp": "2020-01-11T02:08:56.795Z",
         "before": [
           {
             "result": {
-              "duration": 10914130300,
+              "duration": 10640673900,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 5,
-        "name": "Account summary page should have the title Zero - Account Summary.",
+        "line": 10,
+        "name": "Account summary page should have  Cash Accounts, Investment Accounts, Credit Accounts, Loan Accounts.",
         "description": "",
-        "id": "account-summary;account-summary-page-should-have-the-title-zero---account-summary.",
+        "id": "account-summary;account-summary-page-should-have--cash-accounts--investment-accounts--credit-accounts--loan-accounts.",
         "after": [
           {
             "result": {
-              "duration": 2622572800,
+              "duration": 2606544200,
               "status": "passed"
             },
             "match": {
@@ -35,10 +35,10 @@
         "steps": [
           {
             "result": {
-              "duration": 468856500,
+              "duration": 412028400,
               "status": "passed"
             },
-            "line": 6,
+            "line": 11,
             "name": "the user is logged in",
             "match": {
               "location": "AccountSummaryStepDefs.the_user_is_logged_in()"
@@ -47,20 +47,36 @@
           },
           {
             "result": {
-              "duration": 9998200,
+              "duration": 69293500,
               "status": "passed"
             },
-            "line": 7,
-            "name": "the page title should be \"Zero - Account Summary\"",
+            "line": 12,
+            "name": "the user should see the following account types",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"Zero - Account Summary\"",
-                  "offset": 25
-                }
-              ],
-              "location": "LoginStepDefinition.the_page_title_should_be(String)"
+              "location": "AccountSummaryStepDefs.the_user_should_see_the_following_account_types(String\u003e)"
             },
+            "rows": [
+              {
+                "cells": [
+                  "Cash Accounts"
+                ]
+              },
+              {
+                "cells": [
+                  "Investment Accounts"
+                ]
+              },
+              {
+                "cells": [
+                  "Credit Accounts"
+                ]
+              },
+              {
+                "cells": [
+                  "Loan Accounts"
+                ]
+              }
+            ],
             "keyword": "Then "
           }
         ],
@@ -69,7 +85,7 @@
             "name": "@account_summary"
           },
           {
-            "name": "@acct_summary_page_title"
+            "name": "@account_types"
           }
         ]
       }

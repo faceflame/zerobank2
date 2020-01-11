@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="185b8868-07c7-4f52-85b3-19c0f7736ac4" name="Default Changelist" comment="" />
+    <list default="true" id="185b8868-07c7-4f52-85b3-19c0f7736ac4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ZeroBank2/pages/AccountSummaryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/ZeroBank2/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ZeroBank2/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ZeroBank2/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ZeroBank2/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ZeroBank2/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ZeroBank2/step_definitions/AccountSummaryStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ZeroBank2/step_definitions/AccountSummaryStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ZeroBank2/step_definitions/LoginStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ZeroBank2/step_definitions/LoginStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AccountSummary.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AccountSummary.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/default-cucumber-reports/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ZeroBank2/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ZeroBank2/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ZeroBank2/runners/CukesRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ZeroBank2/runners/CukesRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ZeroBank2/step_definitions/AccountSummaryStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ZeroBank2/step_definitions/AccountSummaryStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ZeroBank2/step_definitions/LoginStepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ZeroBank2/step_definitions/LoginStepDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/AccountSummary.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/AccountSummary.feature" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +32,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,9 +43,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1WBUxh61TEDePz77SE4hNCSN6kd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/features" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -82,5 +104,18 @@
       <updated>1578622729256</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
