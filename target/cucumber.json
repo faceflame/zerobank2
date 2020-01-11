@@ -1,0 +1,93 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-01-10T23:54:50.673Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10914130300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Account summary page should have the title Zero - Account Summary.",
+        "description": "",
+        "id": "account-summary;account-summary-page-should-have-the-title-zero---account-summary.",
+        "after": [
+          {
+            "result": {
+              "duration": 2622572800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.shut()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 468856500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is logged in",
+            "match": {
+              "location": "AccountSummaryStepDefs.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9998200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the page title should be \"Zero - Account Summary\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Zero - Account Summary\"",
+                  "offset": 25
+                }
+              ],
+              "location": "LoginStepDefinition.the_page_title_should_be(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@account_summary"
+          },
+          {
+            "name": "@acct_summary_page_title"
+          }
+        ]
+      }
+    ],
+    "name": "Account Summary",
+    "description": "",
+    "id": "account-summary",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/AccountSummary.feature",
+    "tags": [
+      {
+        "name": "@account_summary",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
