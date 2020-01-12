@@ -29,6 +29,28 @@ public WebElement AddButton;
 public WebElement actualMessage;
 
 
+public void GoToAddNewPayeeTab() {
+payBillstab.click();
+AddNewPayee.click();
+}
+
+    public void CreateNewPayee(String payeeName, String payeeAddress, String account, String payeeDetails) {
+
+        PayeeNameBox.sendKeys(payeeName);
+        PayeeAddressBox.sendKeys(payeeAddress);
+        AccountBox.sendKeys(account);
+        PayeeDetailsBox.sendKeys(payeeDetails);
+        AddButton.click();
+    }
+
+    public String PayeeCrtdMessage () {
+        String actualMsg = actualMessage.getText();
+        return actualMsg;
+
+    }
+
+
+
     public AddNewPayeePage(){
         PageFactory.initElements(Driver.get(), this);
     }

@@ -1,11 +1,17 @@
 package com.ZeroBank2.pages;
 
 import com.ZeroBank2.utilities.Driver;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public abstract class BasePage {
+
+    WebDriver driver= new ChromeDriver();
+
+
     @FindBy(id = "account_summary_tab")
     public WebElement accountSummaryTab;
 
